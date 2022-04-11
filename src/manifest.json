@@ -1,0 +1,17 @@
+{
+  "name": "Oric Emulator 2",
+  "description": "Oric Atmos emulator",
+  "version": "0.2",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"],
+      "display": "browser"
+    }
+  },
+  "permissions": [
+    {"fileSystem": ["write", "retainEntries"]},
+    "storage"
+  ],
+  "icons": { "72": "oric_72.png", "256": "oric_256.png", "512":"oric_512.png"}
+}

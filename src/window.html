@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="window.css">
+    <title>Oric Emulator 2</title>
+  </head>
+  <body bgcolor=black>
+    <div id='crtArea'>
+      <canvas id='crtCanvas'></canvas>
+      <div id='uiPanel' class='row'>
+          <ihm>
+              <ihm_c>
+                  <div><button id='toggleDesass'>Desass</button></div>
+                  <div><button id='toggleSound'>Sound</button></div>
+              </ihm_c>
+              <ihm_c id='bgLoad'>
+                  <input id='fileSelect' type='file' style='display: none'/>
+                  <button id='tapeLoad'> LOAD </button>
+              </ihm_c>
+              <ihm_c class='flex3'>
+                <div id='tapeName'> COUCOU </div>
+                <div id='tapeInfo'> coucou </div>
+              </ihm_c>
+              <ihm_c class='flex1'>
+                <div id='tapeInfo1'> COUCOU </div>
+                <div id='tapeInfo2'> coucou </div>
+              </ihm_c>
+              <ihm_c>
+                <button id='tapeRewind'> << </button>
+              </ihm_c>
+              <ihm_c class='flex3'>
+                <div id='tapePartName'> COUCOU </div>
+                <div id='tapePartInfo'> coucou </div>
+              </ihm_c>
+              <ihm_c>
+                <button id='tapeForward'> >> </button>
+              </ihm_c>
+          </ihm>
+      </div>
+    </div>
+    <script src="tape.js"></script>
+    <script src="psg.js"></script>
+    <script src="ula.js"></script>
+    <script src="io.js"></script>
+    <script src="m6502v2.js"></script>
+    <script src="system.js"></script>
+    <script src="goOric.js"></script>
+  </body>
+</html>
