@@ -11,7 +11,7 @@ Install in Chrome as Extension, developper mode, unpacked app install ...
 - click on screen to display/hide tape overlay
 
 Tape :
-- looad eject a tap file : some info are displayed 
+- load/eject a tap file : some info are displayed 
 - << & >> skip to prev/next part on tape    
 - play/stop is auto when CLOAD"
          
