@@ -10,6 +10,6 @@ Old javascript emulator for Oric computer
 
 SOUND button : resync sound
 LOAD/EJECT : - looad eject a tap file : some info are displayed 
-         << & >> skip to prev/next record on tape    
-         play/stop is auto when CLOAD"
+             - << & >> skip to prev/next record on tape    
+             - play/stop is auto when CLOAD"
          
